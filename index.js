@@ -1,2 +1,2 @@
-import CreditCardInput from './src/CreditCardInput';
+import CreditCardInput from '../..index.js';
 export { CreditCardInput };
