@@ -124,7 +124,7 @@ const CreditCardInput = ({
   const inputProps = (field) => ({
     ...other,
     ref: refs[field],
-    containerStyle: styles.containerStyle,
+    containerStyle: styles.inputContainer,
     field,
     focused: focused === field,
     inputStyle,
@@ -175,7 +175,7 @@ const CreditCardInput = ({
               value={number.slice(number.length - 4, number.length)}
               containerStyle={[
                 // NOTE: Prevent placeholder spreading
-                showRightPart && { width: 60, overflow: 'hidden' },
+                showRightPart && styles.shortNumber,
               ]}
             />
           </View>
@@ -185,7 +185,7 @@ const CreditCardInput = ({
         {requiresZip && (
           <Input
             {...inputProps('zip')}
-            containerStyle={[styles.containerStyle, { minWidth: 80 }]}
+            containerStyle={[styles.inputContainer, { minWidth: 80 }]}
           />
         )}
       </View>
