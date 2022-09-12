@@ -1,6 +1,6 @@
 {
   "name": "@big-toni/react-native-credit-card-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "RN component written in JS",
   "main": "index.js",
   "scripts": {

@@ -185,7 +185,7 @@ const CreditCardInput = ({
         {requiresZip && (
           <Input
             {...inputProps('zip')}
-            containerStyle={[styles.inputContainer, { minWidth: 80 }]}
+            containerStyle={[styles.inputContainer, { maxWidth: 80 }]}
           />
         )}
       </View>
