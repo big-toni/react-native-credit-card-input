@@ -11,6 +11,10 @@
 
 This library is available on npm, install it with: `npm i @big-toni/react-native-credit-card-input` or `yarn add @big-toni/react-native-credit-card-input`.
 
+## Demo
+
+![Alt Text](https://github.com/big-toni/react-native-credit-card-input/raw/main/react-native-credit-card-input.gif 'react-native-credit-card-input')
+
 ## Usage
 
 ```js
