@@ -1,6 +1,6 @@
-declare module '../..index.js' {
-  import * as React from 'react';
+import * as React from 'react';
 
+declare module '@big-toni/react-native-credit-card-input' {
   export interface CreditCardInputProps {
     autoFocus?: boolean;
     inputStyle?: Object;
